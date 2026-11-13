@@ -1,0 +1,2 @@
+Event 1: System boot initialised.
+Event 2: Job scheduled successfully.
