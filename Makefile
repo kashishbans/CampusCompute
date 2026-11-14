@@ -1,8 +1,10 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -std=c11 -g
+CFLAGS = -Wall -Wextra -std=c11 -g -pthread
 
 TARGET = campuscompute
-SOURCES = main.c scheduler.c banker.c
+
+SOURCES = main.c scheduler.c banker.c logger.c ipc.c worker.c limits.c
+
 OBJECTS = $(SOURCES:.c=.o)
 
 all: $(TARGET)

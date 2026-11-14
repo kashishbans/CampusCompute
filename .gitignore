@@ -1,3 +1,7 @@
 *.o
 campuscompute
 backup/
+*.o
+campuscompute
+backup/
+log.txt
